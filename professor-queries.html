@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A simple website showcasing our CPSC 332 project for the Spring 2021 semester">
+        <meta name="keywords" content="HTML, CSS, Responsive, HTML5, CSS3, SQL, PHP">
+        </meta>
+        <meta name="author" content="Stephen Landaas">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon"
+            href="https://findicons.com/files/icons/1722/gnome_2_18_icon_theme/16/stock_data_edit_sql_query.png">
+        <title>Professor Queries</title>
+    </head>
+
+    <body>
+        <header id="top">
+            <div class="nav-container">
+                <div class="heading">
+                    <h1>CPSC 332 Project</h1>
+                    <p class="subtitle">A team effort by Group 19</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="professor-queries.html" class="current-page">Professor Queries</a></li>
+                        <li><a href="student-queries.html">Student Queries</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="main-container">
+            <div class="query query-1">
+                <h2>Get Professor Class Data</h2>
+                <form method="POST" action="sample.php">
+                    <input type="text" id="profSSN" name="profSSN" placeholder="Enter professor SSN">
+                    <br>
+                    <input type="submit" name="submit-1" value="Submit" class="sub-button">
+                </form>
+            </div>
+            <div class="query query-2">
+                <h2>Get Grade Distribution</h2>
+                <form method="POST" action="sample.php">
+                    <input type="text" id="courseNum" name="courseNum" placeholder="Enter course number">
+                    <br>
+                    <input type="text" id="sectionNum" name="sectionNum" placeholder="Enter section number">
+                    <br>
+                    <input type="submit" name="submit-2" value="Submit" class="sub-button">
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div class="button-to-top"><a href="#top">&#129145;</a></div>
+            <p class="footer-group-names">Group Members: Stephen Landaas, Emily Le, Ali Hussain</p>
+            <p class="footer-group-info">CPSC 332 - Section 04 | Spring 2021</p>
+        </footer>
+    </body>
+</html>
