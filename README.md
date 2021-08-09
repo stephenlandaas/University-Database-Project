@@ -1,4 +1,4 @@
-# Student-Professor-Database-Project
+# University Database Project
 This is a project created by myself and 2 of my peers for our File Structures & Database Systems class. Within the instructions of this project, we were tasked with designing a database for a university that satisfied a series of requirements, which will be discussed below.
 
 The database keeps information about each professor in our system, with a multitude of attributes regarding each professor. Moreover, the database also keeps track of various departments, courses, course sections, student records, and enrollment records. All of these records are also given a wide variety of detailed attributes regarding each one.
