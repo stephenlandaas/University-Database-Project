@@ -1,5 +1,5 @@
 # University Database Project
-This is a project created by myself and 2 close friends of mine. Within this project, we created an artificial database that primarily features professor records and student records, amongst other entities, which will be discussed below.
+This is a project created by myself and 2 close friends of mine. Within this project, we created an artificial database that primarily features professor records and student records, amongst other entities, which will be discussed in detail below.
 
 The database keeps information about each professor in our system, with a multitude of attributes regarding each professor. Moreover, the database also keeps track of various departments, courses, course sections, student records, and enrollment records. All of these records are also given a wide variety of detailed attributes regarding each one.
 
